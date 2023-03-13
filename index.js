@@ -13,13 +13,13 @@ document.querySelectorAll("img")[1].setAttribute("src", ran_img);
 
 
 if(randomNumber_1 === randomNumber_2){
-document.querySelector("h1").innerHTML = "Draw";
+document.querySelector("h1").innerHTML = "😐Draw😐";
 }
 
 else if(randomNumber_1<randomNumber_2){
-    document.querySelector("h1").innerHTML = "Player 2 wins";
+    document.querySelector("h1").innerHTML = "Player 2 wins😍";
 }
 
 else{
-    document.querySelector("h1").innerHTML = "Player 1 wins";
+    document.querySelector("h1").innerHTML = "😍Player 1 wins";
 }
